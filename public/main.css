@@ -1,0 +1,18 @@
+.hello {
+  border-collapse: collapse;
+  width: 980px;
+  text-align: center;
+  margin: 0 auto;
+}
+.hello td {
+  border: 1px solid #ddd;
+  border-left: none;
+  border-right: none;
+}
+.hello tbody>tr:nth-child(odd) {
+  background: #F4F4F4;
+}
+.hello thead {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}

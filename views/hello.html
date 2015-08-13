@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>hello</title>
+  <link rel="stylesheet" href="main.css">
+  <script type="text/javascript" src="jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+
+  <table class="hello">
+    <thead id="hellos">
+      <tr>
+        <th data-name="name" data-asc=1>name</th>
+        <th data-name="chinese" data-asc=1>chinese</th>
+        <th data-name="math" data-asc=1>math</th>
+      </tr>
+    </thead>
+    <tbody id="world">
+      {{#each student}}
+      <tr>
+        <td>{{name}}</td>
+        <td>{{chinese}}</td>
+        <td>{{math}}</td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+
+</body>
+
+</html>
