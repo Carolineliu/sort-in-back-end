@@ -14,22 +14,30 @@
   <table class="hello">
     <thead id="hellos">
       <tr>
-        <th data-name="name" data-asc=1>name</th>
+        <th data-name="id" data-asc=1>id</th>
+        <th data-name="name">name</th>
         <th data-name="chinese" data-asc=1>chinese</th>
         <th data-name="math" data-asc=1>math</th>
+        <th data-name="detele">detele</th>
+
       </tr>
     </thead>
     <tbody id="world">
       {{#each student}}
-      <tr>
+      <tr data-name={{id}}>
+        <td>{{id}}</td>
         <td>{{name}}</td>
         <td>{{chinese}}</td>
         <td>{{math}}</td>
+        <td data-name={{id}}>删除</td>
       </tr>
       {{/each}}
     </tbody>
   </table>
+  <div class="add">
+    <br><input class="add1" type="button" name="add" value="add"></br>
 
+  </div>
 </body>
 
 </html>
