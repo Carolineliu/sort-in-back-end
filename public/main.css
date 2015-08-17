@@ -25,6 +25,16 @@
 }
 .add1{
   width: 80px;
-  height: 20px;
+  height: 25px;
+  background: pink;
+}
+.put{
+  width: 980px;
+  text-align: center;
+  margin: 0 auto;
+}
+.put1{
+  width: 80px;
+  height: 25px;
   background: pink;
 }
